@@ -96,6 +96,11 @@ export default {
             animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
           },
         },
+        "pulando-lento": {
+          "0%, 50%, 100%": { transform: "translateY(0)" },
+          "25%": { transform: "translateY(-10px)" },
+          "75%": { transform: "translateY(-5px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -103,6 +108,7 @@ export default {
         "pulse-glow": "pulse-glow 5s ease-in-out infinite",
         "subtle-gradient": "subtle-gradient 15s ease infinite",
         "slow-bounce": "slow-bounce 6s infinite",
+        "pulando-lento": "pulando-lento 3s infinite",
       },
     },
   },
