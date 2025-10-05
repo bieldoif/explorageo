@@ -7,8 +7,8 @@ export function Hero() {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="container relative grid min-h-[calc(100vh-4rem)] items-center gap-12 lg:grid-cols-2">
-        <div className="flex flex-col items-start gap-8 text-left">
+      <div className="container relative grid min-h-[calc(100vh-4rem)] items-center gap-12 lg:grid-cols-1">
+        <div className="flex flex-col items-center gap-8 text-center">
           <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-7xl lg:text-8xl">
             Dê um{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -29,18 +29,6 @@ export function Hero() {
               QUERO TRANSFORMAR MINHAS AULAS
             </Button>
           </a>
-        </div>
-        <div className="relative hidden h-full w-full items-center justify-center lg:flex">
-          {heroImage && (
-            <Image
-              src={heroImage.imageUrl}
-              alt={heroImage.description}
-              width={600}
-              height={600}
-              className="animate-slow-bounce rounded-full object-cover shadow-2xl"
-              data-ai-hint={heroImage.imageHint}
-            />
-          )}
         </div>
       </div>
     </section>
