@@ -16,7 +16,7 @@ const testimonialsData = [
     role: "Professora de Geografia há 5 anos",
     avatar: "AS",
     quote:
-      "O GeoLeap mudou minha rotina. As aulas prontas me poupam um tempo precioso e meus alunos estão muito mais engajados. Recomendo demais!",
+      "O ExploraGeo mudou minha rotina. As aulas prontas me poupam um tempo precioso e meus alunos estão muito mais engajados. Recomendo demais!",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const testimonialsData = [
     role: "Professora iniciante",
     avatar: "JC",
     quote:
-      "Estava insegura por ser recém-formada, mas o GeoLeap me deu a base que eu precisava. O material é super completo e fácil de adaptar.",
+      "Estava insegura por ser recém-formada, mas o ExploraGeo me deu a base que eu precisava. O material é super completo e fácil de adaptar.",
   },
 ];
 
@@ -94,7 +94,7 @@ export function Testimonials() {
       } else {
          toast({
           title: "Nenhum depoimento específico encontrado",
-          description: `Não conseguimos destacar um depoimento específico para '${focusArea.label}', mas todos eles mostram o valor do GeoLeap!`,
+          description: `Não conseguimos destacar um depoimento específico para '${focusArea.label}', mas todos eles mostram o valor do ExploraGeo!`,
         });
       }
     }

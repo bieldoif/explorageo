@@ -41,7 +41,7 @@ export function Benefits() {
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             O que você vai encontrar no{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              GeoLeap?
+              ExploraGeo?
             </span>
           </h2>
         </div>

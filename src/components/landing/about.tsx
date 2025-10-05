@@ -11,13 +11,13 @@ export function About() {
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             Para quem é o{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              GeoLeap?
+              ExploraGeo?
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Professores de Geografia do Ensino Médio que buscam otimizar seu
             tempo e aprimorar a qualidade de suas aulas. Seja você um professor
-            iniciante ou experiente, o GeoLeap oferece as ferramentas que você
+            iniciante ou experiente, o ExploraGeo oferece as ferramentas que você
             precisa para se destacar.
           </p>
         </div>
