@@ -20,7 +20,7 @@ export function Cta() {
           <div className="mt-10">
             <Button
               size="lg"
-              className="h-16 bg-gradient-to-r from-primary to-accent px-12 py-4 font-headline text-xl font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/50 animate-pulse-glow"
+              className="h-16 bg-gradient-to-r from-primary to-accent px-12 py-4 font-headline text-xl font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/50"
             >
               QUERO ACESSO IMEDIATO
             </Button>
