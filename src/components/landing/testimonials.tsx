@@ -137,7 +137,7 @@ export function Testimonials() {
             <Card
               key={testimonial.id}
               className={cn(
-                "transform border-2 bg-background/80 p-1 shadow-lg transition-all duration-300 hover:scale-105 focus:scale-105 border-primary/20",
+                "transform border-2 bg-background/80 p-1 shadow-lg transition-all duration-300 hover:scale-105 focus:scale-105 border-primary/20 glow-shadow-blue",
                 highlightedIds.includes(testimonial.id)
                   ? "border-accent/80 glow-shadow-purple"
                   : ""
