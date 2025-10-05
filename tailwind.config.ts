@@ -102,7 +102,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-glow": "pulse-glow 3s ease-in-out infinite",
         "subtle-gradient": "subtle-gradient 15s ease infinite",
-        "slow-bounce": "slow-bounce 2s infinite",
+        "slow-bounce": "slow-bounce 4s infinite",
       },
     },
   },
