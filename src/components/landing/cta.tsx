@@ -38,7 +38,7 @@ export function Cta() {
               <p className="font-headline text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 12x de R$19,90
               </p>
-              <p className="text-muted-foreground">ou R$197,00 à vista</p>
+              <p className="text-muted-foreground">ou R$ 49,90 á vista</p>
             </div>
             <div className="flex flex-col gap-4">
               <h3 className="text-center font-headline text-xl font-semibold">
