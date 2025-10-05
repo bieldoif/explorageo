@@ -104,12 +104,12 @@ export function Testimonials() {
   };
 
   return (
-    <section className="bg-slate-50 py-24 sm:py-32">
+    <section className="bg-secondary/50 py-24 sm:py-32">
       <div className="container">
         <div className="mb-8 text-center">
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             O que os{" "}
-            <span className="bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               professores dizem
             </span>
           </h2>
@@ -140,7 +140,7 @@ export function Testimonials() {
               className={cn(
                 "transform border-2 bg-background/80 p-1 shadow-lg transition-all duration-500",
                 highlightedIds.includes(testimonial.id)
-                  ? "border-neon-purple/80 glow-shadow-purple"
+                  ? "border-accent/80 glow-shadow-purple"
                   : "border-transparent"
               )}
             >

@@ -74,11 +74,11 @@ export default {
         "pulse-glow": {
           "0%, 100%": {
             boxShadow:
-              "0 0 5px hsl(var(--neon-purple-hsl)), 0 0 10px hsl(var(--neon-purple-hsl))",
+              "0 0 5px hsl(var(--accent)), 0 0 10px hsl(var(--accent))",
           },
           "50%": {
             boxShadow:
-              "0 0 20px hsl(var(--neon-purple-hsl)), 0 0 30px hsl(var(--neon-purple-hsl))",
+              "0 0 20px hsl(var(--accent)), 0 0 30px hsl(var(--accent))",
           },
         },
         "subtle-gradient": {

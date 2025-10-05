@@ -32,7 +32,7 @@ export function Features() {
       <div className="mb-16 text-center">
         <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
           Transforme sua forma de ensinar{" "}
-          <span className="bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Geografia
           </span>
         </h2>
