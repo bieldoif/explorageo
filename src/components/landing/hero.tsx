@@ -21,7 +21,7 @@ export function Hero() {
           <a href="#cta">
             <Button
               size="lg"
-              className="h-14 bg-gradient-to-r from-primary to-accent px-10 py-4 font-headline text-lg font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/20 animate-pulse-glow"
+              className="h-14 animate-slow-bounce bg-gradient-to-r from-primary to-accent px-10 py-4 font-headline text-lg font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/20"
             >
               QUERO TRANSFORMAR MINHAS AULAS
             </Button>
