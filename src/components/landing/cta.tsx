@@ -36,7 +36,7 @@ export function Cta() {
                 De R$497,00
               </p>
               <p className="font-headline text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                12x de R$19,90
+                5x de R$ 9,99
               </p>
               <p className="text-muted-foreground">ou R$ 49,90 á vista</p>
             </div>
