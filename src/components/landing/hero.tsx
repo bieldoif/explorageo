@@ -7,7 +7,7 @@ export function Hero() {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="container relative grid min-h-[calc(100vh-4rem)] items-center gap-12 lg:grid-cols-2">
+      <div className="container relative grid min-h-[calc(100vh-4rem)] items-start gap-12 pt-20 lg:grid-cols-2 lg:items-center">
         <div className="flex flex-col items-start gap-8 text-left">
           <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Dê um{" "}
