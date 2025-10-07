@@ -7,16 +7,16 @@ export function Hero() {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="container relative grid min-h-[calc(100vh-4rem)] items-center gap-12 lg:grid-cols-1">
-        <div className="flex flex-col items-center gap-8 text-center">
-          <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-7xl lg:text-8xl">
+      <div className="container relative grid min-h-[calc(100vh-4rem)] items-center gap-12 lg:grid-cols-2">
+        <div className="flex flex-col items-start gap-8 text-left">
+          <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Dê um{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               salto
             </span>{" "}
             na sua carreira de professor de Geografia.
           </h1>
-          <p className="max-w-2xl text-balance text-lg text-muted-foreground md:text-xl">
+          <p className="max-w-xl text-balance text-lg text-muted-foreground md:text-xl">
             Chega de perder tempo criando aulas do zero. Tenha acesso a
             materiais completos, atualizados e prontos para usar, e encante seus
             alunos com aulas incríveis.
@@ -29,6 +29,18 @@ export function Hero() {
               QUERO TRANSFORMAR MINHAS AULAS
             </Button>
           </a>
+        </div>
+        <div className="flex justify-center lg:justify-end">
+          {heroImage && (
+            <Image
+              src={heroImage.imageUrl}
+              alt={heroImage.description}
+              width={550}
+              height={550}
+              className="rounded-2xl object-cover shadow-2xl"
+              data-ai-hint={heroImage.imageHint}
+            />
+          )}
         </div>
       </div>
     </section>

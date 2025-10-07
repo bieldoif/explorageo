@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-image",
-      "description": "A vibrant 3D representation of a globe with stylized educational icons orbiting it.",
-      "imageUrl": "https://images.unsplash.com/photo-1614926120392-f38ec3f75d79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "imageHint": "globe education"
+      "description": "A geography teacher pointing at a globe in a classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1571260899241-31278d394174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "teacher globe"
     },
     {
       "id": "about-image",
