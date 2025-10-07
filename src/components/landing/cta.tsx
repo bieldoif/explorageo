@@ -21,7 +21,7 @@ export function Cta() {
     <section id="cta" className="relative w-full overflow-hidden py-24 sm:py-32">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/20 via-accent/10 to-background" />
       <div className="container flex justify-center">
-        <Card className="w-full max-w-2xl bg-background/80 shadow-2xl backdrop-blur-sm glow-shadow-blue">
+        <Card className="w-full max-w-2xl animate-pulando-lento bg-background/80 shadow-2xl backdrop-blur-sm glow-shadow-blue">
           <CardHeader className="text-center">
             <CardTitle className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
               Oferta Especial por Tempo Limitado!
