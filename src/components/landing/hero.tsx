@@ -21,7 +21,11 @@ export function Hero() {
             materiais completos, atualizados e prontos para usar, e encante seus
             alunos com aulas incríveis.
           </p>
-          <a href="#cta">
+          <a
+            href="https://pay.cakto.com.br/oma9ji5_598300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               size="lg"
               className="h-14 rounded-md bg-gradient-to-r from-primary to-accent px-10 py-4 font-headline text-lg font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/20"

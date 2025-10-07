@@ -21,7 +21,7 @@ export function Cta() {
     <section id="cta" className="relative w-full overflow-hidden py-24 sm:py-32">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/20 via-accent/10 to-background" />
       <div className="container flex justify-center">
-        <Card className="w-full max-w-2xl bg-background/80 shadow-2xl backdrop-blur-sm glow-shadow-blue animate-pulando-lento">
+        <Card className="w-full max-w-2xl bg-background/80 shadow-2xl backdrop-blur-sm glow-shadow-blue">
           <CardHeader className="text-center">
             <CardTitle className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
               Oferta Especial por Tempo Limitado!
@@ -55,12 +55,19 @@ export function Cta() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button
-              size="lg"
-              className="h-16 w-full bg-gradient-to-r from-primary to-accent px-12 py-4 font-headline text-xl font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/50"
+            <a
+              href="https://pay.cakto.com.br/oma9ji5_598300"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full"
             >
-              GARANTIR MINHA VAGA
-            </Button>
+              <Button
+                size="lg"
+                className="h-16 w-full bg-gradient-to-r from-primary to-accent px-12 py-4 font-headline text-xl font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/50"
+              >
+                GARANTIR MINHA VAGA
+              </Button>
+            </a>
           </CardFooter>
         </Card>
       </div>
