@@ -48,12 +48,6 @@ const focusAreas = [
     prompt:
       "Quero saber como posso deixar minhas aulas mais interessantes e engajadoras para os alunos.",
   },
-  {
-    key: "content_quality",
-    label: "Qualidade do Conteúdo",
-    prompt:
-      "Preciso de materiais de alta qualidade, confiáveis e que me deem segurança para ensinar.",
-  },
 ];
 
 export function Testimonials() {
@@ -107,15 +101,16 @@ export function Testimonials() {
       <div className="container">
         <div className="mb-8 text-center">
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            A{" "}
+            Professores como você já estão{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              transformação
+              transformando
             </span>{" "}
-            na prática: veja quem já usa e aprova
+            suas carreiras
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Professores como você estão retomando o prazer de ensinar. Use nossa
-            IA para filtrar os depoimentos pela sua maior necessidade hoje.
+          <p className="mx-auto mt-4 max-w-3xl text-lg text-muted-foreground">
+            Eles retomaram o prazer de ensinar com aulas que encantam e otimizam
+            o tempo. Use nossa IA para filtrar os depoimentos pela sua maior
+            necessidade hoje e veja o que é possível para você também.
           </p>
         </div>
         <div className="mb-12 flex flex-wrap justify-center gap-4">
