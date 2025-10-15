@@ -21,13 +21,14 @@ export function Gallery() {
   );
 
   return (
-    <section className="container pb-24 sm:pb-32">
+    <section className="container sm:pb-32">
       <div className="mb-16 text-center">
         <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Tenha acesso ao nossos Materiais!
+          Veja a qualidade do material por dentro
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-          Veja uma amostra da qualidade dos nossos materiais.
+          Dê uma espiada no tipo de conteúdo que vai revolucionar suas aulas e
+          impressionar seus alunos.
         </p>
       </div>
       <Carousel

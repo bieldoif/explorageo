@@ -5,36 +5,36 @@ import { Clock, Sparkles, BookCheck } from "lucide-react";
 const featuresData = [
   {
     icon: <Clock className="h-8 w-8 text-primary" />,
-    title: "Mais tempo para você",
+    title: "Recupere seu tempo mais valioso",
     description:
-      "Com aulas prontas, você economiza horas de planejamento e pode se dedicar ao que realmente importa: seus alunos.",
+      "Com aulas prontas e editáveis, você economiza horas de planejamento e pode focar no que realmente importa: interagir, ensinar e inspirar seus alunos.",
     image: PlaceHolderImages.find((img) => img.id === "feature-1"),
   },
   {
     icon: <Sparkles className="h-8 w-8 text-primary" />,
-    title: "Aulas mais dinâmicas e engajadoras",
+    title: "Aulas que capturam a atenção",
     description:
-      "Materiais visualmente atraentes que capturam a atenção e despertam a curiosidade dos estudantes.",
+      "Use materiais visualmente atraentes e dinâmicos, que despertam a curiosidade e transformam alunos distraídos em participantes ativos.",
     image: PlaceHolderImages.find((img) => img.id === "feature-2"),
   },
   {
     icon: <BookCheck className="h-8 w-8 text-primary" />,
-    title: "Conteúdo aprofundado e confiável",
+    title: "Ensine com a confiança de um especialista",
     description:
-      "Todos os materiais são elaborados por especialistas e alinhados com a BNCC.",
-    image: PlaceHolderImages.find((img) => img.id === "feature-3"),
+      "Todo o nosso conteúdo é elaborado por especialistas e alinhado à BNCC. Tenha a segurança de estar oferecendo o melhor material, sem precisar duvidar.",
   },
 ];
 
 export function Features() {
   return (
-    <section className="container pt-24 sm:pt-32">
+    <section className="container pt-24 sm:pt-0">
       <div className="mb-16 text-center">
         <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Transforme sua forma de ensinar{" "}
+          A{" "}
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Geografia
-          </span>
+            transformação
+          </span>{" "}
+          começa aqui
         </h2>
       </div>
 

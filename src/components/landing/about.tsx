@@ -15,10 +15,11 @@ export function About() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Professores de Geografia do Ensino Médio que buscam otimizar seu
-            tempo e aprimorar a qualidade de suas aulas. Seja você um professor
-            iniciante ou experiente, o ExploraGeo oferece as ferramentas que você
-            precisa para se destacar.
+            Para professores de Geografia do Ensino Médio como você, que amam
+            ensinar, mas sentem que a burocracia e o tempo gasto com
+            planejamento estão roubando a sua paixão. Se você busca otimizar
+            sua rotina e elevar a qualidade das suas aulas, o ExploraGeo é a
+            ferramenta que vai te colocar em outro patamar.
           </p>
         </div>
         <div className="flex justify-center">

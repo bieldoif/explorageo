@@ -11,25 +11,25 @@ const benefits = [
     icon: <Presentation className="h-10 w-10 text-primary" />,
     title: "Aulas Prontas e Editáveis",
     description:
-      "Slides em formato PPTX e Google Slides, com design moderno e conteúdo aprofundado sobre todos os temas da Geografia.",
+      "Slides completos (PPTX e Google Slides) com design profissional para você adaptar e usar em minutos.",
   },
   {
     icon: <BrainCircuit className="h-10 w-10 text-accent" />,
     title: "Mapas Mentais e Infográficos",
     description:
-      "Recursos visuais que facilitam a compreensão e a memorização dos conteúdos.",
+      "Ferramentas visuais de alto impacto que simplificam temas complexos e aceleram o aprendizado.",
   },
   {
     icon: <ListChecks className="h-10 w-10 text-primary" />,
-    title: "Listas de Exercícios e Gabaritos",
+    title: "Exercícios com Gabarito",
     description:
-      "Questões de vestibulares e autorais, com gabarito comentado, para praticar e avaliar o aprendizado.",
+      "Questões de vestibulares e autorais com gabarito comentado para fixar o conteúdo e avaliar o progresso.",
   },
   {
     icon: <RefreshCw className="h-10 w-10 text-accent" />,
     title: "Atualizações Constantes",
     description:
-      "Acesso a novos materiais e atualizações periódicas para manter suas aulas sempre relevantes.",
+      "Acesso a novos materiais e atualizações para suas aulas estarem sempre alinhadas com o mundo de hoje.",
   },
 ];
 
@@ -39,9 +39,9 @@ export function Benefits() {
       <div className="container">
         <div className="mb-16 text-center">
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            O que você vai encontrar no{" "}
+            O arsenal completo para o professor de{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              ExploraGeo?
+              sucesso
             </span>
           </h2>
         </div>

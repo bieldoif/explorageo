@@ -10,16 +10,16 @@ export function Hero() {
       <div className="container relative grid min-h-[calc(100vh-4rem)] items-start gap-12 pt-20 lg:grid-cols-2 lg:items-center">
         <div className="flex flex-col items-start gap-8 text-left">
           <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Dê um{" "}
+            Eleve o nível das suas aulas e dê um{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               salto
             </span>{" "}
-            na sua carreira de professor de Geografia.
+            na sua carreira.
           </h1>
           <p className="max-w-xl text-balance text-lg text-muted-foreground md:text-xl">
-            Chega de perder tempo criando aulas do zero. Tenha acesso a
-            materiais completos, atualizados e prontos para usar, e encante seus
-            alunos com aulas incríveis.
+            Cansado de passar horas criando aulas do zero? Com o ExploraGeo,
+            você tem acesso a materiais de Geografia completos, atualizados e
+            prontos para encantar seus alunos.
           </p>
           <a
             href="https://pay.cakto.com.br/oma9ji5_598300"

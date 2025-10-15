@@ -107,13 +107,14 @@ export function Testimonials() {
       <div className="container">
         <div className="mb-8 text-center">
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            O que os{" "}
+            A opinião de quem já está{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              professores dizem
+              transformando
             </span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Use nossa IA para destacar os depoimentos mais relevantes para você.
+            Veja o que outros professores dizem e use nossa IA para filtrar os
+            depoimentos de acordo com a sua maior necessidade.
           </p>
         </div>
         <div className="mb-12 flex flex-wrap justify-center gap-4">
