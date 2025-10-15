@@ -50,18 +50,12 @@
     },
     {
       "id": "gallery-4",
-      "description": "Exemplo de slide de apresentação de geografia.",
-      "imageUrl": "https://i.postimg.cc/x16DL5dw/Captura-de-tela-2025-10-15-001258.png",
-      "imageHint": "geography slide"
-    },
-    {
-      "id": "gallery-5",
       "description": "Example of a detailed world map used in class.",
       "imageUrl": "https://picsum.photos/seed/gallery5/600/400",
       "imageHint": "world map"
     },
     {
-      "id": "gallery-6",
+      "id": "gallery-5",
       "description": "Clean and modern presentation slide example.",
       "imageUrl": "https://picsum.photos/seed/gallery6/600/400",
       "imageHint": "presentation slide"
