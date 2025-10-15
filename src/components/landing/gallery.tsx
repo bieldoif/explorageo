@@ -17,7 +17,7 @@ const galleryImages = PlaceHolderImages.filter((img) =>
 
 export function Gallery() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
+    Autoplay({ delay: 2000, stopOnInteraction: false })
   );
 
   return (
@@ -33,8 +33,9 @@ export function Gallery() {
       <Carousel
         plugins={[plugin.current]}
         className="w-full"
-        onMouseEnter={plugin.current.stop}
-        onMouseLeave={plugin.current.reset}
+        opts={{
+          loop: true,
+        }}
       >
         <CarouselContent>
           {galleryImages.map((image) => (
