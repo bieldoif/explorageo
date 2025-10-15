@@ -24,11 +24,12 @@ export function Cta() {
         <Card className="w-full max-w-2xl bg-background/80 shadow-2xl backdrop-blur-sm glow-shadow-blue">
           <CardHeader className="text-center">
             <CardTitle className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Pronto para dar o próximo passo?
+              Pronto para dar o seu salto profissional?
             </CardTitle>
             <CardDescription className="pt-2 text-lg text-muted-foreground">
-              Aproveite a oferta de lançamento e tenha acesso vitalício a todo o
-              arsenal do ExploraGeo.
+              Aproveite a oferta de lançamento por tempo limitado. Tenha acesso
+              vitalício ao arsenal completo do GeoProf e transforme suas aulas
+              para sempre.
             </CardDescription>
           </CardHeader>
           <CardContent className="grid gap-8">
@@ -43,7 +44,7 @@ export function Cta() {
             </div>
             <div className="flex flex-col gap-4">
               <h3 className="text-center font-headline text-xl font-semibold">
-                Tudo o que você recebe:
+                Seu acesso vitalício inclui:
               </h3>
               <ul className="flex flex-col items-center gap-3 text-muted-foreground sm:items-start">
                 {includedFeatures.map((feature) => (
@@ -66,7 +67,7 @@ export function Cta() {
                 size="lg"
                 className="h-16 w-full bg-gradient-to-r from-primary to-accent px-12 py-4 font-headline text-xl font-bold text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/50"
               >
-                QUERO GARANTIR MINHA VAGA AGORA
+                QUERO TRANSFORMAR MINHAS AULAS AGORA
               </Button>
             </a>
           </CardFooter>

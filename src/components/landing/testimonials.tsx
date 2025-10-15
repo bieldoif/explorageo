@@ -16,7 +16,7 @@ const testimonialsData = [
     role: "Professora de Geografia há 5 anos",
     avatar: "AS",
     quote:
-      "O ExploraGeo mudou minha rotina. As aulas prontas me poupam um tempo precioso e meus alunos estão muito mais engajados. Recomendo demais!",
+      "O GeoProf mudou minha rotina. As aulas prontas me poupam um tempo precioso e meus alunos estão muito mais engajados. Recomendo demais!",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const testimonialsData = [
     role: "Professora iniciante",
     avatar: "JC",
     quote:
-      "Estava insegura por ser recém-formada, mas o ExploraGeo me deu a base que eu precisava. O material é super completo e fácil de adaptar.",
+      "Estava insegura por ser recém-formada, mas o GeoProf me deu a base que eu precisava. O material é super completo e fácil de adaptar.",
   },
 ];
 
@@ -94,7 +94,7 @@ export function Testimonials() {
       } else {
          toast({
           title: "Nenhum depoimento específico encontrado",
-          description: `Não conseguimos destacar um depoimento específico para '${focusArea.label}', mas todos eles mostram o valor do ExploraGeo!`,
+          description: `Não conseguimos destacar um depoimento específico para '${focusArea.label}', mas todos eles mostram o valor do GeoProf!`,
         });
       }
     }
@@ -107,14 +107,15 @@ export function Testimonials() {
       <div className="container">
         <div className="mb-8 text-center">
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            A opinião de quem já está{" "}
+            A{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              transformando
-            </span>
+              transformação
+            </span>{" "}
+            na prática: veja quem já usa e aprova
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Veja o que outros professores dizem e use nossa IA para filtrar os
-            depoimentos de acordo com a sua maior necessidade.
+            Professores como você estão retomando o prazer de ensinar. Use nossa
+            IA para filtrar os depoimentos pela sua maior necessidade hoje.
           </p>
         </div>
         <div className="mb-12 flex flex-wrap justify-center gap-4">

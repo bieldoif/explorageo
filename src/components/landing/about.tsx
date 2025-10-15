@@ -11,15 +11,14 @@ export function About() {
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             Para quem é o{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              ExploraGeo?
+              GeoProf?
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Para professores de Geografia do Ensino Médio como você, que amam
-            ensinar, mas sentem que a burocracia e o tempo gasto com
-            planejamento estão roubando a sua paixão. Se você busca otimizar
-            sua rotina e elevar a qualidade das suas aulas, o ExploraGeo é a
-            ferramenta que vai te colocar em outro patamar.
+            Para o professor de Geografia que ama o que faz, mas sente a paixão
+            se esvaindo em meio à burocracia e às noites mal dormidas
+            planejando aulas. Se você sonha em ter mais tempo, reconhecimento e
+            ver seus alunos realmente aprendendo, o GeoProf é o seu atalho.
           </p>
         </div>
         <div className="flex justify-center">

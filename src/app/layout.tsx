@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ExploraGeo - O material de Geografia mais completo para professores",
+  title: "GeoProf - O material de Geografia mais completo para professores",
   description:
     "Transforme suas aulas com materiais completos, atualizados e prontos para usar. Encante seus alunos com aulas incríveis e otimize seu tempo.",
 };
