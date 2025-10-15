@@ -25,12 +25,6 @@
       "imageHint": "students classroom"
     },
     {
-      "id": "feature-3",
-      "description": "High-quality, reliable content symbol.",
-      "imageUrl": "https://images.unsplash.com/photo-1536985576470-b7e4a0363a19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "imageHint": "books library"
-    },
-    {
       "id": "gallery-1",
       "description": "Exemplo de material de geografia.",
       "imageUrl": "https://i.postimg.cc/JntF3CFM/Captura-de-tela-2025-10-15-000003.png",
