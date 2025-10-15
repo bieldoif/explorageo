@@ -42,12 +42,6 @@ const focusAreas = [
     label: "Economia de Tempo",
     prompt: "Estou buscando maneiras de economizar tempo no preparo das aulas.",
   },
-  {
-    key: "student_engagement",
-    label: "Engajamento dos Alunos",
-    prompt:
-      "Quero saber como posso deixar minhas aulas mais interessantes e engajadoras para os alunos.",
-  },
 ];
 
 export function Testimonials() {
@@ -101,16 +95,15 @@ export function Testimonials() {
       <div className="container">
         <div className="mb-8 text-center">
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            Professores como você já estão{" "}
+            A prova de que o GeoProf funciona?{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              transformando
-            </span>{" "}
-            suas carreiras
+              Nossos próprios clientes.
+            </span>
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-lg text-muted-foreground">
-            Eles retomaram o prazer de ensinar com aulas que encantam e otimizam
-            o tempo. Use nossa IA para filtrar os depoimentos pela sua maior
-            necessidade hoje e veja o que é possível para você também.
+            Professores como você encontraram no GeoProf a chave para retomar o
+            prazer de ensinar. Use nossa IA para filtrar os depoimentos pela sua
+            maior necessidade hoje e veja o que é possível para você também.
           </p>
         </div>
         <div className="mb-12 flex flex-wrap justify-center gap-4">
