@@ -1,12 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { highlightTestimonialsAction } from "@/app/actions";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
 
 const testimonialsData = [
@@ -36,64 +31,11 @@ const testimonialsData = [
   },
 ];
 
-const focusAreas = [
-  {
-    key: "saving_time",
-    label: "Economia de Tempo",
-    prompt: "Estou buscando maneiras de economizar tempo no preparo das aulas.",
-  },
-];
-
 export function Testimonials() {
-  const [highlightedIds, setHighlightedIds] = useState<number[]>([]);
-  const [loadingFocus, setLoadingFocus] = useState<string | null>(null);
-  const { toast } = useToast();
-
-  const handleHighlight = async (focusArea: (typeof focusAreas)[0]) => {
-    setLoadingFocus(focusArea.key);
-    setHighlightedIds([]);
-
-    const testimonialsText = testimonialsData
-      .map((t) => `"${t.quote}" - ${t.name}`)
-      .join("\n\n");
-
-    const result = await highlightTestimonialsAction({
-      pageContent: testimonialsText,
-      userFocusAreas: focusArea.prompt,
-    });
-
-    if (result.highlightedTestimonials.includes("Ocorreu um erro")) {
-      toast({
-        title: "Erro de IA",
-        description: result.highlightedTestimonials,
-        variant: "destructive",
-      });
-    } else {
-      const newHighlightedIds = testimonialsData
-        .filter((t) => result.highlightedTestimonials.includes(t.quote))
-        .map((t) => t.id);
-
-      if (newHighlightedIds.length > 0) {
-        setHighlightedIds(newHighlightedIds);
-        toast({
-          title: "Depoimento em destaque!",
-          description: `Encontramos o depoimento mais relevante para '${focusArea.label}'.`,
-        });
-      } else {
-         toast({
-          title: "Nenhum depoimento específico encontrado",
-          description: `Não conseguimos destacar um depoimento específico para '${focusArea.label}', mas todos eles mostram o valor do GeoProf!`,
-        });
-      }
-    }
-
-    setLoadingFocus(null);
-  };
-
   return (
     <section className="bg-secondary/50 py-24 sm:py-32">
       <div className="container">
-        <div className="mb-8 text-center">
+        <div className="mb-16 text-center">
           <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             A prova de que o GeoProf funciona?{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -101,25 +43,9 @@ export function Testimonials() {
             </span>
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-lg text-muted-foreground">
-            Professores como você encontraram no GeoProf a chave para retomar o
-            prazer de ensinar. Use nossa IA para filtrar os depoimentos pela sua
-            maior necessidade hoje e veja o que é possível para você também.
+            Professores como você já estão transformando suas aulas e retomando
+            o prazer de ensinar. Veja o que eles dizem:
           </p>
-        </div>
-        <div className="mb-12 flex flex-wrap justify-center gap-4">
-          {focusAreas.map((area) => (
-            <Button
-              key={area.key}
-              variant="outline"
-              onClick={() => handleHighlight(area)}
-              disabled={!!loadingFocus}
-            >
-              {loadingFocus === area.key ? (
-                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              ) : null}
-              {area.label}
-            </Button>
-          ))}
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -127,10 +53,7 @@ export function Testimonials() {
             <Card
               key={testimonial.id}
               className={cn(
-                "transform border-2 bg-background/80 p-1 shadow-lg transition-all duration-300 hover:scale-105 focus:scale-105 border-primary/20 glow-shadow-blue",
-                highlightedIds.includes(testimonial.id)
-                  ? "border-accent/80 glow-shadow-purple"
-                  : ""
+                "transform border-2 bg-background/80 p-1 shadow-lg transition-all duration-300 hover:scale-105 focus:scale-105 border-primary/20 glow-shadow-blue"
               )}
             >
               <CardContent className="p-6">
