@@ -24,7 +24,7 @@ export function Gallery() {
     <section className="container py-24 sm:py-32">
       <div className="mb-16 text-center">
         <h2 className="font-headline text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Galeria de Materiais
+          Tenha acesso ao nossos Materiais!
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
           Veja uma amostra da qualidade dos nossos materiais.
