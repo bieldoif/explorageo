@@ -29,6 +29,42 @@
       "description": "High-quality, reliable content symbol.",
       "imageUrl": "https://images.unsplash.com/photo-1536985576470-b7e4a0363a19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "imageHint": "books library"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Example of a mind map for a geography class.",
+      "imageUrl": "https://picsum.photos/seed/gallery1/600/400",
+      "imageHint": "mind map"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Example of an infographic about volcanoes.",
+      "imageUrl": "https://picsum.photos/seed/gallery2/600/400",
+      "imageHint": "infographic volcano"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Example of a presentation slide for a class on biomes.",
+      "imageUrl": "https://picsum.photos/seed/gallery3/600/400",
+      "imageHint": "presentation slide"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Example of an exercise list with questions.",
+      "imageUrl": "https://picsum.photos/seed/gallery4/600/400",
+      "imageHint": "exercise list"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Example of a detailed world map used in class.",
+      "imageUrl": "https://picsum.photos/seed/gallery5/600/400",
+      "imageHint": "world map"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Clean and modern presentation slide example.",
+      "imageUrl": "https://picsum.photos/seed/gallery6/600/400",
+      "imageHint": "presentation slide"
     }
   ]
 }

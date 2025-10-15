@@ -3,6 +3,7 @@ import { Header } from "@/components/landing/header";
 import { About } from "@/components/landing/about";
 import { Benefits } from "@/components/landing/benefits";
 import { Features } from "@/components/landing/features";
+import { Gallery } from "@/components/landing/gallery";
 import { Testimonials } from "@/components/landing/testimonials";
 import { Cta } from "@/components/landing/cta";
 import { Footer } from "@/components/landing/footer";
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Benefits />
         <Features />
+        <Gallery />
         <Testimonials />
         <Cta />
       </main>
